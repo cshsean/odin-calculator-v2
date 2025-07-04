@@ -1,0 +1,84 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    height: 90vh;
+    width: 30vw;
+    gap: 1.5rem;
+    background-color: gray;
+}
+
+.calculatorScreen {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: end;
+    background-color: black;
+    width: 85%;
+    height: 25%;
+    border-radius: 1rem;
+}
+
+.calculatorScreenTop,
+.calculatorScreenBottom {
+  margin-right: 0.75rem;
+  overflow: hidden;           
+  height: 50%;                
+  display: flex;
+  align-items: center;       
+  justify-content: flex-end;  
+}
+
+.calculatorScreenBottom {
+    margin-bottom: 0.4rem;
+}
+
+.calculatorScreenTop > p,
+.calculatorScreenBottom > p {
+    color: white;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    direction: ltr;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.calculatorScreenTop > p {
+    font-size: 2rem;
+}
+
+.calculatorScreenBottom > p {
+    font-size: 4rem;
+}
+
+.calculatorButtons {
+    height: 60%;
+    width: 87%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0.3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.wideBtn {
+    grid-column: span 2;
+}
