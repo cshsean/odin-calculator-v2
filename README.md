@@ -10,7 +10,6 @@ A clean, functional calculator built using HTML, CSS, and JavaScript. This proje
 -  Accurate rounding to avoid floating-point artifacts (e.g., `1/3 * 3 = 1`)  
 -  Error detection for malformed expressions (e.g., `6--`, `3.3.3`, `()`)  
 -  Uses `data-value` attributes for clean, scalable button logic  
--  Basic keyboard input handling (optional enhancement)
 
 ## What I Learned
 
